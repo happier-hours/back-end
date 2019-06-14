@@ -2,8 +2,3 @@ language: node_js
 node_js: node
 services: mongodb
 env: MONGODB_URI=mongodb://localhost:27017
-deploy:
-  provider: heroku
-  app: Happier-Hours
-  api_key:
-    secure:
